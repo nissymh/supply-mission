@@ -10,6 +10,6 @@ class Box {
       var pos = this.body.position;
       rectMode(CENTER);
       fill(255);
-      rect(0, 0, this.width, this.height);
+      rect(pos.x,pos.y, this.width, this.height);
     }
   };
